@@ -360,7 +360,7 @@ body {
     gap: 24px;
     margin-top: 60px;
     margin-left: 110px;
-    
+
 }
 
 .form {
@@ -416,8 +416,8 @@ button {
     height: 120px;
     text-align: center;
     position: relative;
-    bottom:150px;
-    left:500px;
+    bottom: 150px;
+    left: 500px;
     transform: translate(-50%, -50%) rotate(-20deg);
 }
 
@@ -435,35 +435,301 @@ button {
     margin-bottom: 0px;
     padding-top: 20px;
 }
+
 /* finish */
-.footer-section{
+.footer-section {
     margin-top: 60px;
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
     padding-bottom: 30px;
     width: 1440px;
 }
-.footer-title{
+
+.footer-title {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-title h3{
-   font-size: 32px;
-   color: #131318;
-   font-weight: 800;
+
+.footer-title h3 {
+    font-size: 32px;
+    color: #131318;
+    font-weight: 800;
 }
-.footer-img hr{
+
+.footer-img hr {
     background: rgba(19, 19, 24, 0.10);
     width: 870px;
 }
-.footer-section img{
-    width:40px;
+
+.footer-section img {
+    width: 40px;
     height: 40px;
     margin: 1%;
 }
 
 /* responsive for mobile */
-/* @media screen and (max-width:576px){
+@media screen and (max-width:600px) {
 
-} */
+
+    .nav-container,
+    .input-container,
+    .popular-tours,
+    .first-row,
+    .second-row,
+    .third-row,
+    .contain-div,
+    .lower-div-container {
+        flex-direction: column;
+    }
+
+    .nav-link ul {
+        display: none;
+    }
+
+    .gradient {
+        width: 335px;
+        height: 530px;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+        top: 0px;
+        left: 0px;
+        border-radius: 16px;
+    }
+
+    .image-container {
+        width: 335px;
+        height: 530px;
+        position: relative;
+        margin-left: 110px;
+
+
+    }
+
+    .image-container img {
+        width: 335px;
+        height: 530px;
+        border-radius: 16px;
+        object-fit: cover;
+        display: block;
+
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+
+    }
+
+    .text-overlay h1 {
+        font-size: 22px;
+        font-weight: 800;
+
+        /* line-height: 80px; */
+
+    }
+
+    .input-container {
+        display: inline-flex;
+        margin-top: 10px;
+        align-items: flex-start;
+        gap: 0px;
+
+        background: rgba(255, 255, 255, 0.30);
+        /* background-color: rgba(255, 255, 255, 1); */
+    }
+
+    .input-container p {
+        font-size: 14px;
+        width: 304px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .input-container input {
+        border-radius: 8px;
+        border: none;
+        width: 255px;
+        height: 52px;
+        margin: 5px;
+        color: rgba(19, 19, 24, 0.50);
+        font-weight: 400px;
+    }
+
+    .input-container button {
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        margin: 10px;
+        border: none;
+        color: white;
+        font-weight: 700;
+        background-color: #FF5400;
+        margin-bottom: 10px;
+    }
+
+    .popular-tours .column-1 h1 {
+        font-size: 20px;
+    }
+
+    .popular-tours .column-1 p {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .popular-tours .column-1 li {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .popular-tours .column-1 button {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .popular-tours .column-2 {
+
+        padding-left: 0px;
+    }
+
+    .popular-tours .column-2 img {
+        width: 335px;
+        height: 342px;
+    }
+
+    .destination-container .dest-title {
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+    .destination-container p {
+        width: 309px;
+        font-size: 14px;
+        margin: auto;
+        margin-right: 0px;
+        margin-top: 10px;
+
+        text-align: center;
+    }
+
+    .first-row img {
+        width: 335px;
+        height: 176px;
+        margin-left: -5px;
+    }
+
+    .second-row #first {
+        width: 335px;
+        height: 176px;
+        margin-left: -5px;
+    }
+
+    .second-row #mid {
+        width: 335px;
+        height: 176px;
+        margin-left: -5px;
+    }
+
+    .second-row #last {
+        width: 335px;
+        height: 176px;
+        margin-left: -5px;
+    }
+
+    .third-row #third-first {
+        width: 335px;
+        height: 176px;
+        margin-left: -5px;
+    }
+
+    .third-row #third-last {
+        width: 335px;
+        height: 176px;
+        margin-left: -5px;
+    }
+
+    .choose-us .choose-us-title {
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+    .choose-us p {
+        width: 309;
+        font-size: 14;
+        margin-left: 100px;
+    }
+
+    .contain-div .first-div {
+        margin-left: 100px;
+        height: 284px;
+        width: 335px;
+    }
+
+    .contain-div .second-div {
+        margin-left: 100px;
+        height: 284px;
+        width: 335px;
+    }
+
+    .third-div {
+        margin-left: 100px;
+        height: 284px;
+        width: 335px;
+    }
+
+    .form {
+        width: 335px;
+        height: 420px;
+    }
+
+    .form input,
+    button {
+
+        width: 288px;
+        height: 52px;
+    }
+
+    .form hr {
+        width: 288px;
+    }
+
+    .discount-img img {
+        width: 335px;
+        height: 300px;
+        margin-bottom: 0px;
+    }
+
+    .discount {
+        width: 214.023px;
+        height: 79.268px;
+        text-align: center;
+        position: relative;
+        bottom: 90px;
+        left: 220px;
+        transform: translate(-50%, -50%) rotate(-20deg);
+
+    }
+
+    .discount h3 {
+        font-size: 20px;
+    }
+
+    .discount p {
+        font-size: 15px;
+    }
+
+    .footer-section {
+        width: 375px;
+        height: 309px;
+        margin-top: 0px;
+        margin-left: 80px;
+    }
+
+}
