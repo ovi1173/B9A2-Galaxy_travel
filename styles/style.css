@@ -1,50 +1,258 @@
-
 /* shared styles */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
 
-*{
+* {
     font-family: 'Mulish', sans-serif;
 }
-body{
+
+body {
     background-color: #FFF;
     max-width: 1440px;
 }
-.color-primary{
+
+.color-primary {
     color: #FF5400;
 }
+
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400px;
+}
+
 /* nav related style */
-.nav-title h3{
+.nav-title h3 {
     font-size: 36px;
     font-weight: 800px;
 }
 
 
-.nav-title img{
-    width:6%;
+.nav-title img {
+    width: 6%;
     height: 6%;
 }
-.nav-title{
+
+.nav-title {
     display: flex;
     align-items: center;
-    margin-left: 135px;
+    margin-left: 70px;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     align-items: center;
-    margin-right: 127px;
-     
+    margin-right: 90px;
+
 }
-.nav-link ul
-{
+
+.nav-link ul {
     display: flex;
     gap: 44px;
 }
-.nav-link a{
+
+.nav-link a {
     text-decoration: none;
 }
 
-.nav-link li{
+.nav-link li {
     list-style: none;
     font-size: 18px;
-    color:  #424247;
+    color: #424247;
+}
+
+/* nav related style done */
+
+/* banner related style */
+.gradient {
+    width: 1170px;
+    height: 500px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    top: 0px;
+    left: 0px;
+    border-radius: 16px;
+}
+
+.image-container {
+    width: 1170px;
+    height: 500px;
+    position: relative;
+    margin-left: 60px;
+
+
+}
+
+.image-container img {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    object-fit: cover;
+    display: block;
+
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+}
+
+.text-overlay h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 80px;
+
+}
+
+.input-container {
+    display: inline-flex;
+    margin-top: 80px;
+    align-items: flex-start;
+    gap: 24px;
+
+    background: rgba(255, 255, 255, 0.30);
+    /* background-color: rgba(255, 255, 255, 1); */
+}
+
+.input-container input {
+    border-radius: 8px;
+    border: none;
+    width: 174px;
+    height: 52px;
+    margin: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400px;
+}
+
+.input-container button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    margin: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-color: #FF5400
+}
+
+/* main section styles */
+.popular-tours {
+    padding-top: 50px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.popular-tours img {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+.popular-tours .column-1 {
+    width: 577px;
+
+}
+
+.popular-tours .column-1 h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 0px;
+}
+
+.popular-tours .column-2 {
+    padding-left: 50px;
+}
+
+.popular-tours .column-1 button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.dest-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 0px;
+
+}
+
+.destination-container {
+    margin: 50px 400px;
+
+}
+
+/* image container */
+.first-row {
+    display: flex;
+
+}
+
+.first-row img {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    margin: 18px;
+}
+
+.second-row {
+    display: flex;
+}
+
+.second-row #first {
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    margin: 18px;
+
+}
+
+.second-row #mid {
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    margin: 18px;
+
+}
+
+.second-row #last {
+
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    margin: 18px;
+
+}
+
+.third-row {
+    display: flex;
+}
+
+.third-row #third-first {
+
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    margin: 18px;
+
+}
+
+.third-row #third-last {
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    margin: 18px;
 }
