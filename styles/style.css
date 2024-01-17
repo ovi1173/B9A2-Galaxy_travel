@@ -26,9 +26,10 @@ body {
     font-weight: 800px;
 }
 
-.three-dot{
+.three-dot {
     display: none;
 }
+
 .nav-title img {
     width: 6%;
     height: 6%;
@@ -140,7 +141,7 @@ body {
     color: white;
     font-weight: 700;
     background-color: #FF5400;
-    
+
 }
 
 
@@ -271,27 +272,32 @@ body {
 }
 
 /* own section */
-.won-sec{
+.won-sec {
     width: 1440px;
     background-color: white;
 }
+
 .won-sec-heading {
     font-size: 30px;
     color: #424247;
-   font-weight: 800;
-   text-align: center;
+    font-weight: 800;
+    text-align: center;
 }
-.destination{
+
+.destination {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-.destination img{
+
+.destination img {
     border-radius: 10px;
 }
+
 .destination h1 {
     margin-bottom: 0px;
 }
+
 /* finish */
 .choose-us {
 
@@ -505,38 +511,45 @@ button {
     .second-row,
     .third-row,
     .contain-div,
-    .lower-div-container,.destination {
+    .lower-div-container,
+    .destination {
         flex-direction: column;
     }
 
     .nav-link ul {
         display: none;
     }
-    .nav-title img{
+
+    .nav-title img {
         height: 35px;
-        width:35px;
+        width: 35px;
         margin-left: 20px;
         margin-right: 0px;
-        
+
     }
-    .nav-title h3{
+
+    .nav-title h3 {
         font-size: 25px;
         margin-left: 20px;
     }
-    .three-dot{
+
+    .three-dot {
         display: contents;
 
     }
-    .three-dot img{
+
+    .three-dot img {
         width: 30px;
         height: 30px;
-        
+
     }
-    .nav-container{
+
+    .nav-container {
         display: flex;
         flex-direction: row;
-        gap:80px;
+        gap: 80px;
     }
+
     .gradient {
         width: 335px;
         height: 530px;
@@ -723,7 +736,7 @@ button {
     }
 
     .contain-div .second-div {
-        
+
         height: 284px;
         width: 340px;
     }
@@ -781,22 +794,26 @@ button {
         margin-top: 0px;
         margin-left: 80px;
     }
+
     /* won section */
-    .won-sec{
+    .won-sec {
         width: 375px;
         background-color: white;
     }
+
     .won-sec-heading {
         font-size: 20px;
         color: #424247;
-       font-weight: 800;
-       text-align: center;
-       margin-left: 80px;
+        font-weight: 800;
+        text-align: center;
+        margin-left: 80px;
     }
-    .destination img{
+
+    .destination img {
         border-radius: 10px;
     }
-    .destination{
+
+    .destination {
         margin-left: 80px;
     }
 
