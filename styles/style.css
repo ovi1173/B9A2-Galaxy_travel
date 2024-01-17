@@ -26,7 +26,9 @@ body {
     font-weight: 800px;
 }
 
-
+.three-dot{
+    display: none;
+}
 .nav-title img {
     width: 6%;
     height: 6%;
@@ -137,8 +139,10 @@ body {
     border: none;
     color: white;
     font-weight: 700;
-    background-color: #FF5400
+    background-color: #FF5400;
+    
 }
+
 
 /* main section styles */
 .popular-tours {
@@ -266,6 +270,28 @@ body {
     margin: 18px;
 }
 
+/* own section */
+.won-sec{
+    width: 1440px;
+    background-color: white;
+}
+.won-sec-heading {
+    font-size: 30px;
+    color: #424247;
+   font-weight: 800;
+   text-align: center;
+}
+.destination{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.destination img{
+    border-radius: 10px;
+}
+.destination h1 {
+    margin-bottom: 0px;
+}
 /* finish */
 .choose-us {
 
@@ -479,14 +505,38 @@ button {
     .second-row,
     .third-row,
     .contain-div,
-    .lower-div-container {
+    .lower-div-container,.destination {
         flex-direction: column;
     }
 
     .nav-link ul {
         display: none;
     }
+    .nav-title img{
+        height: 35px;
+        width:35px;
+        margin-left: 20px;
+        margin-right: 0px;
+        
+    }
+    .nav-title h3{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .three-dot{
+        display: contents;
 
+    }
+    .three-dot img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: row;
+        gap:80px;
+    }
     .gradient {
         width: 335px;
         height: 530px;
@@ -657,13 +707,13 @@ button {
 
     .choose-us .choose-us-title {
         font-size: 20px;
-        margin-left: 100px;
+        margin-left: 10px;
     }
 
     .choose-us p {
         width: 309;
         font-size: 14;
-        margin-left: 100px;
+        margin-left: 0px;
     }
 
     .contain-div .first-div {
@@ -673,9 +723,9 @@ button {
     }
 
     .contain-div .second-div {
-        margin-left: 100px;
+        
         height: 284px;
-        width: 335px;
+        width: 340px;
     }
 
     .third-div {
@@ -729,6 +779,24 @@ button {
         width: 375px;
         height: 309px;
         margin-top: 0px;
+        margin-left: 80px;
+    }
+    /* won section */
+    .won-sec{
+        width: 375px;
+        background-color: white;
+    }
+    .won-sec-heading {
+        font-size: 20px;
+        color: #424247;
+       font-weight: 800;
+       text-align: center;
+       margin-left: 80px;
+    }
+    .destination img{
+        border-radius: 10px;
+    }
+    .destination{
         margin-left: 80px;
     }
 
